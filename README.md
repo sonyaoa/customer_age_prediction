@@ -1,24 +1,25 @@
-# Проект: Определение возраста покупателей
+# Project: Customer Age Detection
 
-## Описание
-Проект посвящён разработке системы компьютерного зрения для определения приблизительного возраста покупателей по фотографии. Решение может использоваться для анализа потребительского поведения и контроля соблюдения возрастных ограничений при продаже товаров.
+## Description
+This project focuses on developing a computer vision system to estimate the approximate age of customers from photos. The solution can be used for consumer behavior analysis and age-restricted product sales compliance.
 
-## Цель исследования
-Разработать модель компьютерного зрения, способную определять возраст человека по фотографии с высокой точностью и оценить качество её работы по метрике MAE.
+## Goal
+Build a computer vision model capable of accurately predicting a person's age from a photo, evaluated using the MAE metric.
 
-## Ход исследования
-- Предобработка данных и анализ датасета изображений.
-- Исследовательский анализ данных (EDA): изучение распределения возрастов и качества фотографий.
-- Моделирование:
-   - Подготовка данных к обучению модели.
-   - Обучение свёрточной нейронной сети на основе предобученной архитектуры ResNet50.
-   - Оценка качества модели на тестовой выборке по метрике MAE.
-- Итоговые выводы и формирование рекомендаций.
+## Workflow
+- Data preprocessing and image dataset analysis
+- Exploratory Data Analysis (EDA): age distribution and photo quality assessment
+- Modeling:
+   - Data preparation for model training
+   - Training a convolutional neural network based on the pretrained ResNet50 architecture
+   - Model evaluation on the test set using MAE
+- Conclusions and recommendations
 
-## Технологии
-Python, Pandas, NumPy, Matplotlib, Seaborn, TensorFlow, Keras, Computer Vision, CNN, ResNet50.
+## Technologies
+Python, Pandas, NumPy, Matplotlib, Seaborn, TensorFlow, Keras, Computer Vision, CNN, ResNet50
 
-## Ключевые результаты
-- Подготовлена и обучена модель компьютерного зрения на основе архитектуры ResNet50.
-- Достигнуто значение MAE = 6.87 на тестовой выборке, что соответствует требованиям задачи.
-- Разработана модель, способная определять приблизительный возраст покупателей по фотографии и применяться для решения бизнес-задач в розничной торговле.
+## Key Results
+- Trained a computer vision model based on the ResNet50 architecture
+- Achieved MAE = 6.87 on the test set, meeting the project requirements
+- Developed a model applicable to real business tasks in retail for customer age estimation
+
